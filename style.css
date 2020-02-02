@@ -1,0 +1,96 @@
+body {
+    background:#E5E5E5;
+}
+
+.logo_text {
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    left: calc(50% - 146px/2 - 347px);
+    top: 40px;
+
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.nav_start {
+    position: absolute;
+    width: 30px;
+    height: 17px;
+    left: calc(50% - 30px/2 + 161px);
+    top: 51px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.title {
+    position: absolute;
+    width: 434px;
+    height: 195px;
+    left: calc(50% - 434px/2 - 248px);
+    top: 212px;
+    
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.text{
+    position: absolute;
+    width: 367px;
+    height: 43px;
+    left: calc(50% - 367px/2 - 281.5px);
+    top: 447px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.picture {
+    position: absolute;
+    width: 514px;
+    height: 439px;
+    left: calc(50% - 514px/2 + 208px);
+    top: 195px;
+}
+
+.button {
+    position: absolute;
+    width: 168px;
+    height: 17px;
+    left: calc(50% - 168px/2 - 364px);
+    top: 545px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    border-radius: 4px;
+}
