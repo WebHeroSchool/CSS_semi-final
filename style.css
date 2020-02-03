@@ -2,7 +2,7 @@ body {
     background:#E5E5E5;
 }
 
-.logo_text {
+.logo__text {
     position: absolute;
     width: 146px;
     height: 32px;
@@ -20,7 +20,7 @@ body {
     color: #000000;
 }
 
-.nav_start {
+.nav__start {
     position: absolute;
     width: 30px;
     height: 17px;
