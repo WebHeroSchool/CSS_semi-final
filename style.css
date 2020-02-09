@@ -9,7 +9,7 @@ body {
     left: calc(50% - 146px/2 - 347px);
     top: 40px;
 
-    font-weight: bold;
+    font-family: 'PT Serif';
     font-size: 24px;
     line-height: 32px;
     display: flex;
@@ -25,8 +25,7 @@ body {
     left: calc(50% - 30px/2 + 161px);
     top: 51px;
 
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 16px;
     color: #000000;
@@ -39,7 +38,7 @@ body {
     left: calc(50% - 434px/2 - 248px);
     top: 212px;
     
-    font-weight: bold;
+    font-family: 'PT Serif';
     font-size: 50px;
     line-height: 66px;
     display: flex;
@@ -55,8 +54,7 @@ body {
     left: calc(50% - 367px/2 - 281.5px);
     top: 447px;
 
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'Roboto';
     font-size: 18px;
     line-height: 21px;
 
@@ -78,6 +76,7 @@ body {
     left: calc(50% - 168px/2 - 364px);
     top: 545px;
 
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
