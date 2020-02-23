@@ -194,3 +194,12 @@ mark {
     left: calc(49.6% - 8px/2 + 12px);
     top: 722px;
 }
+
+.dots {
+    position: absolute;
+width: 32px;
+height: 8px;
+left: 667px;
+top: 722px;
+
+}
