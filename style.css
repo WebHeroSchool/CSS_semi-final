@@ -1,8 +1,45 @@
+@media screen and (max-width: 400px) {
+	.nav_icon {
+	  display: inline-block;
+	  cursor: pointer;
+	}
+  
+	.nav_links {
+	  position: fixed;
+	  display: block;
+	  top: 0;
+	  right: 0;
+	  left: 0;
+	  margin-top: 52px;
+	  background-color: rgba(0, 0, 0, 0.8);
+	  z-index: 1000;
+	  overflow: auto;
+	  visibility: hidden;
+    }
+    
+    .picture {
+        width: 100%;
+    }
+  }
+
+
+@media screen and (max-width: 1170px) and (min-width: 400px){
+    width: 100%;
+}
+
+@media screen and (max-width: 1366px) {
+    width: 100%;
+}
+
+@media screen and (max-width: 1920px) {
+    width: 100%;
+}
+
 body {
     background:#E5E5E5;
 }
 
-.logo__ellipse__top {
+.logo_ellipse_top {
     position: absolute;
     width: 28px;
     height: 28px;
@@ -14,7 +51,7 @@ body {
     opacity: 0.7;
 }
 
-.logo__ellipse__bottom {
+.logo_ellipse_bottom {
     position: absolute;
     width: 28px;
     height: 28px;
@@ -25,7 +62,7 @@ body {
     background: #C8DBFB;
     opacity: 0.7;
 }
-.logo__text {
+.logo_text {
     position: absolute;
     width: 146px;
     height: 32px;
@@ -56,7 +93,7 @@ span {
     border-bottom: 2px solid #0056EC;
 }
 
-.nav__start {
+.nav_start {
     position: absolute;
     width: 30px;
     height: 17px;
@@ -64,7 +101,7 @@ span {
     top: 51px;
 }
 
-.nav__services {
+.nav_services {
     position: absolute;
     width: 53px;
     height: 17px;
@@ -72,7 +109,7 @@ span {
     top: 51px;
 }
 
-.nav__about {
+.nav_about {
     position: absolute;
     width: 36px;
     height: 17px;
@@ -80,7 +117,7 @@ span {
     top: 51px;
 }
 
-.nav__blog {
+.nav_blog {
     position: absolute;
     width: 28px;
     height: 17px;
@@ -88,7 +125,7 @@ span {
     top: 51px;
 }
 
-.nav__contact {
+.nav_contact {
     position: absolute;
     width: 66px;
     height: 17px;
@@ -106,15 +143,14 @@ span {
     font-family: 'PT Serif';
     font-size: 50px;
     line-height: 66px;
-    display: float;
     align-items: center;
     
     color: #000000;
 }
 
-mark {
+.back_line {
     background: #ECF3FF;
-    height: 50px;
+    line-height: 75%;
     padding: 0 3px 0 3px;
 }
 
@@ -162,7 +198,7 @@ mark {
     background: #0056EC;
 }
 
-.dot__left{
+.dot_left{
     position: absolute;
     width: 8px;
     height: 8px;
@@ -173,7 +209,7 @@ mark {
     top: 722px;
 }
 
-.dot__middle {
+.dot_middle {
     position: absolute;
     width: 8px;
     height: 8px;
@@ -184,7 +220,7 @@ mark {
     top: 722px;
 }
 
-.dot__right {
+.dot_right {
     position: absolute;
     width: 8px;
     height: 8px;
@@ -194,3 +230,39 @@ mark {
     left: calc(49.6% - 8px/2 + 12px);
     top: 722px;
 }
+<!-- mobile responsive classes -->
+.nav_icon {
+	display: none;
+	width: 45px;
+	height: 35px;
+	position: relative;
+	cursor: pointer;
+    z-index: 1;
+    text-align: right;
+  }
+
+  .nav_icon span {
+	display: block;
+	position: absolute;
+	height: 3px;
+	width: 25px;
+	background: #0056EC;;
+	border-radius: 9px;
+	opacity: 1;
+	left: 326px;
+	transform: rotate(0deg);
+	transition: .25s ease-in-out;
+  }
+  
+  .nav_icon span:nth-child(1) {
+	top: 32px;
+  }
+  
+  .nav_icon span:nth-child(2), 
+  .nav_icon span:nth-child(3) {
+	top: 39px;
+  }
+  
+  .nav_icon span:nth-child(4) {
+	top: 46px;
+  }
