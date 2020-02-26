@@ -1,9 +1,21 @@
 @media screen and (max-width: 400px) {
-	.nav_icon {
+    .logo {
+    
+    }
+    
+	.logo_text {
+    display: none;
+    }
+
+    .nav_icon {
 	  display: inline-block;
 	  cursor: pointer;
 	}
   
+    .nav_icon span {
+    display: inline-block !important;
+    }
+
 	.nav_links {
 	  position: fixed;
 	  display: block;
@@ -14,25 +26,29 @@
 	  background-color: rgba(0, 0, 0, 0.8);
 	  z-index: 1000;
 	  overflow: auto;
-	  visibility: hidden;
+	  display: none;
     }
     
     .picture {
         width: 100%;
     }
+
+    .footer {
+        display: none;
+    }
   }
 
 
 @media screen and (max-width: 1170px) and (min-width: 400px){
-    width: 100%;
+    
 }
 
 @media screen and (max-width: 1366px) {
-    width: 100%;
+   
 }
 
 @media screen and (max-width: 1920px) {
-    width: 100%;
+    
 }
 
 body {
@@ -133,6 +149,9 @@ span {
     top: 51px;
 }
 
+.body_container {
+    width: 100%;
+}
 .title {
     position: absolute;
     width: 434px;
@@ -230,7 +249,6 @@ span {
     left: calc(49.6% - 8px/2 + 12px);
     top: 722px;
 }
-<<<<<<< HEAD
 <!-- mobile responsive classes -->
 .nav_icon {
 	display: none;
@@ -240,6 +258,7 @@ span {
 	cursor: pointer;
     z-index: 1;
     text-align: right;
+    
   }
 
   .nav_icon span {
@@ -250,9 +269,10 @@ span {
 	background: #0056EC;;
 	border-radius: 9px;
 	opacity: 1;
-	left: 326px;
+	left: 90%;
 	transform: rotate(0deg);
-	transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    display: none;
   }
   
   .nav_icon span:nth-child(1) {
@@ -267,14 +287,3 @@ span {
   .nav_icon span:nth-child(4) {
 	top: 46px;
   }
-=======
-
-.dots {
-    position: absolute;
-width: 32px;
-height: 8px;
-left: 667px;
-top: 722px;
-
-}
->>>>>>> 12080f64ff3a60fec7cd2743b974b322d9ba90fe
