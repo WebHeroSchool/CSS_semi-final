@@ -230,6 +230,7 @@ span {
     left: calc(49.6% - 8px/2 + 12px);
     top: 722px;
 }
+<<<<<<< HEAD
 <!-- mobile responsive classes -->
 .nav_icon {
 	display: none;
@@ -266,3 +267,14 @@ span {
   .nav_icon span:nth-child(4) {
 	top: 46px;
   }
+=======
+
+.dots {
+    position: absolute;
+width: 32px;
+height: 8px;
+left: 667px;
+top: 722px;
+
+}
+>>>>>>> 12080f64ff3a60fec7cd2743b974b322d9ba90fe
