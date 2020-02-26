@@ -1,8 +1,8 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
     .logo {
     
     }
-    
+
 	.logo_text {
     display: none;
     }
@@ -149,9 +149,6 @@ span {
     top: 51px;
 }
 
-.body_container {
-    width: 100%;
-}
 .title {
     position: absolute;
     width: 434px;
@@ -250,6 +247,20 @@ span {
     top: 722px;
 }
 <!-- mobile responsive classes -->
+
+.wrap {
+    min-width: 375px;
+    max-width: 1920px;
+}
+
+.container_flex {
+    display: flex;
+}
+
+.picture_container {
+    display: flex;
+}
+
 .nav_icon {
 	display: none;
 	width: 45px;
@@ -258,7 +269,6 @@ span {
 	cursor: pointer;
     z-index: 1;
     text-align: right;
-    
   }
 
   .nav_icon span {
