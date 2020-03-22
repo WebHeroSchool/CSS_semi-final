@@ -14,7 +14,7 @@
     height: 130px;
     display: flex;
     align-items: center;
-    margin-bottom: 2.6%;
+    margin-bottom: 2.7%;
 }
 
 .logo-wrap {
@@ -33,7 +33,7 @@
 .nav__link {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 
@@ -52,20 +52,21 @@ a {
 
 .main-wrap {
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 13%;
 }
 
 .info{
     flex: 1;
     display: flex;
-    margin: auto;
+    border: 1px solid black;
 }
 
 .info-container {
     max-width: 700px;
     display: flex;
     flex-direction: column;
-    
+    margin: auto 0;
+    padding-bottom: 8%;
 }
 
 .title {
@@ -89,7 +90,7 @@ a {
     margin: 0 0 40px;
     font-family: 'Roboto';
     font-size: 18px;
-    line-height: 21px;
+    line-height: 23px;
     color: #000000;
 }
 
@@ -113,11 +114,19 @@ a {
 .picture {
     flex: 1;
     display: flex;
+    border: 1px solid black;
 }
 
 .picture-container{
-    max-width: 770px;
+    width: 100%;
     display: flex;
+    padding-top: 8%;
+    
+}
+
+.picture-main {
+    width: 100%;
+    height: auto;
 }
 
 .footer-wrap {
@@ -173,16 +182,19 @@ a {
   }
   
   .nav__icon span:nth-child(1) {
-	top: 32px;
+    top: 0;
+    left: 0;
   }
   
   .nav__icon span:nth-child(2), 
   .nav__icon span:nth-child(3) {
-	top: 39px;
+    top: 8px;
+    left: 0;
   }
   
   .nav__icon span:nth-child(4) {
-	top: 46px;
+    top: 16px;
+    left: 0;
   }
 
 /* Media queries */
@@ -229,7 +241,7 @@ a {
         height: 120px;
         display: flex;
         align-items: center;
-        margin-bottom: 9%;
+        margin-bottom: 4.2%;
     }
 }
 
@@ -247,24 +259,33 @@ a {
         margin-bottom: 10%;
     }
 
+    .nav{
+        justify-content: flex-end;
+    }
+
     .nav__icon {
         display: block;
         cursor: pointer;
+        position: relative;
       }
     
       .nav__icon span {
           display: inline;
+          
       }
   
       .nav__link {
         display: none;
+        position: relative;
       }
 
     .info-container {
         width: 100%;
         padding-left: 0px;
+        margin: auto;
         text-align: center;
         align-items: center;
+        margin: 0 auto;
     }
   
     .title {
@@ -283,6 +304,7 @@ a {
 
      .picture-main {
          width: 80%;
+         margin: 0 auto;
      }
      
      .button {
@@ -345,25 +367,33 @@ a {
         display: none;
     }
 
+    .nav{
+        justify-content: flex-end;
+    }
+
     .nav__icon {
 	  display: block;
       cursor: pointer;
+      position: relative;
 	}
   
     .nav__icon span {
         display: inline;
+        
     }
 
 	.nav__link {
-	  
-	  display: none;
+        position: relative;
+	    display: none;
     }
 
     .info-container {
         width: 70%;
         padding-left: 0px;
+        margin: auto;
         text-align: center;
         align-items: center;
+        
     }
   
     .title {
@@ -373,6 +403,7 @@ a {
 
      .picture-main {
          width: 70%;
+         margin: 0 auto;
      }
 
      .button {
