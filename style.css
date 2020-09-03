@@ -387,13 +387,13 @@ a {
     .main-wrap {
         flex-direction: column-reverse;
         display: flex;
-        padding: 0 10%;
+        padding: 0 10% 0 12%;
         align-items: center;
     }
 
     .head {
         width: 100%;
-        height: 81px;
+        height: 88px;
         margin: 0 auto;
     }
 
@@ -402,7 +402,7 @@ a {
         width: 27px;
         height: 27px;
         left: 6.3%;
-        top: 28px;
+        top: 24px;
         border-radius: 50%;
         display: block;
         background: #0056EC;
@@ -414,7 +414,7 @@ a {
         width: 27px;
         height: 27px;
         left: 8.5%;
-        top: 35px;
+        top: 32px;
         border-radius: 50%;
         display: block;
         background: #C8DBFB;
@@ -435,6 +435,7 @@ a {
 	  display: flex;
       cursor: pointer;
       position: relative;
+      margin: 6px 0 0 0;
 	}
   
     .nav__icon span {
@@ -458,6 +459,13 @@ a {
     .title {
         font-size: 30px;
         line-height: 40px;
+        margin: 0 0 31px 0;
+     }
+
+     .text {
+         font-size: 16px;
+         padding: 0 20px;
+         margin: 0 0 25px 0;
      }
 
      .picture {
@@ -467,12 +475,14 @@ a {
      }
 
      .picture-main {
-         width: 95%;
+         width: 98%;
      }
 
      .button {
         width: 209px;
         height: 44px;
+        margin: 0 5px 0 0;
+        padding: 0 10px 0 0;
      }
 
      .dots {
