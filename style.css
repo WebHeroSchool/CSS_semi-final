@@ -201,7 +201,7 @@ a {
     }
 
     .info {
-        margin: 0 20px 23% 0;
+        margin: 0 1px 23% 2px;
     }
 
     .title {
@@ -221,6 +221,8 @@ a {
         width: 270.5px;
         height: 57px;
         font-size: 18px;
+        padding: 0 11px 0 0;
+        margin: 0 0 3px 2px;
     }    
 
     .picture {
@@ -257,7 +259,7 @@ a {
     }
 
     .info {
-        margin: 0 1px 23% 0;
+        margin: 0 1px 23% 2px;
     }
 
     .title {
@@ -277,6 +279,8 @@ a {
         width: 270.5px;
         height: 57px;
         font-size: 18px;
+        padding: 0 11px 0 0;
+        margin: 0 0 3px 2px;
     }    
 
     .head {
@@ -389,16 +393,16 @@ a {
 
     .head {
         width: 100%;
-        height: 90px;
+        height: 81px;
         margin: 0 auto;
     }
 
     .logo-ellipse-top {
         position: absolute;
-        width: 25px;
-        height: 25px;
-        left: 8.3%;
-        top: 30px;
+        width: 27px;
+        height: 27px;
+        left: 6.3%;
+        top: 28px;
         border-radius: 50%;
         display: block;
         background: #0056EC;
@@ -407,10 +411,10 @@ a {
     
     .logo-ellipse-bottom {
         position: absolute;
-        width: 25px;
-        height: 25px;
-        left: 11%;
-        top: 37px;
+        width: 27px;
+        height: 27px;
+        left: 8.5%;
+        top: 35px;
         border-radius: 50%;
         display: block;
         background: #C8DBFB;
@@ -459,6 +463,11 @@ a {
      .picture {
          width: auto;
          padding-top: 0;
+         margin: 0 0 6% 0;
+     }
+
+     .picture-main {
+         width: 95%;
      }
 
      .button {
