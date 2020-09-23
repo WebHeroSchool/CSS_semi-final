@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<!-- version 1.0 -->
 <html>
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
         <meta name='viewport' content='initial-scale=1.0, width=device-width'>
         <link rel='stylesheet' href='./fonts/fonts.css'>
         <link rel='stylesheet' href='./style.css'>
@@ -9,27 +10,50 @@
         <title>App.creation</title>
     </head>
 
-    <body>
-        <header>
-            <div class="logo">
-                <p class="logo__text">app.creation</p>
+    <body class="wrap">
+        <header class="head">
+            <div class="logo-wrap">
+                <div class="logo-ellipse-top"></div>
+                <div class="logo-ellipse-bottom"></div>
+                <img src="./logo.png" alt="logo_app.creation" class="logo"/>
             </div>
+           <div class="stumb"></div>
             <nav class="nav">
-                <a class="nav__start" href="./start.html">start</a>
-                <a class="nav__services" href="./services.html">services</a>
-                <a class="nav__about" href="./about.html">about</a>
-                <a class="nav__blog" href="./blog.html">blog</a>
-                <a class="nav__contact" href="./contact.html">contact us</a>
+                <div class="nav__icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </div>
+                    <div class="nav__link">
+                    <a href="#"><span class="nav__link__item">start</span></a>
+                    <a href="#"><span class="nav__link__item">services</span></a>
+                    <a href="#"><span class="nav__link__item">about</span></a>
+                    <a href="#"><span class="nav__link__item">blog</span></a>
+                    <a href="#"><span class="nav__link__item">contact us</span></a>
+                    </div>
             </nav>
         </header>
-        <div>
-            <h1 class="title">Building an App Without Design Expertise?</h1>
-            <p class="text">I help tech startups design better digital products without hiring a full-time designer</p>
-            <a class="button" href="#" target="_blank">Schedule free consultation</a>
-        </div>
-        <div class="picture">
-            <img src="./picture.png" alt="self-made website" class="picture__main"/>
-        </div>
-        <footer class="dots"></footer>
+        <main class="main-wrap">
+            <section class="flex-container">
+                <div class="info">
+                    <h1 class="title">Building an App <br><span class="back-line">Without Design <br>Expertise</span>?</h1>
+                    <p class="text">I help tech startups design better digital products without hiring a full-time designer</p>
+                    <button class="button" href="#" target="_blank">Schedule free consultation</button>
+                </div>
+            </section>
+                <div class="picture">
+                    <img src="./picture.png" alt="self-made website" class="picture-main"/>
+                </div>
+        </main>
+        <footer class="footer-wrap">
+            <div class="dots">
+                <div class="dots-container">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
